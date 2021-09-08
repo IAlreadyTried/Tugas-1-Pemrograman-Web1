@@ -1,0 +1,159 @@
+html {
+	scroll-behavior: smooth;
+}
+.Judulku {
+	text-shadow: 2px 1px #fff;
+	text-shadow: 3px 1px rgba(0, 0, 0, .5);
+}
+.isi p 	{
+	text-shadow: 3px 1px rgba(0, 0, 0, .5);
+}
+.topnav	{
+	width: 100%;
+	height: 90px;
+	background-color: #67595E;
+	margin: 0px auto;
+	padding: 0px;
+	box-sizing: border-box;
+	border-bottom: 5px solid #FFA384;
+	position: relative;
+	
+}
+body 	{
+	margin: 0px;
+	padding: 0px;
+}
+
+.belakang1	{
+	width: 420px;
+	height: 600px;
+	background-color: ;
+	position: fixed;
+	top: 150px;
+	left: -70px;
+	background-image: url(gitar2.png);
+	z-index: -1;
+	background-size: cover;
+	filter: drop-shadow(4px 2px #F8D210) drop-shadow(4.2px 2.3px 5px #D6AD60);
+
+}
+.belakang2	{
+	width: 520px;
+	height: 700px;
+	background-color: ;
+	position: fixed;
+	top: 130px;
+	left: 1000px;
+	background-image: url(gitar3.png);
+	z-index: -1;
+	background-size: cover;
+	filter: drop-shadow(4px 2px #F8D210) drop-shadow(4.2px 2.3px 5px #D6AD60)
+	drop-shadow(-3px 0px 0px #B9B7BD);
+
+}
+
+.logo	{
+	width: 15%;
+	height: 150%;
+	background: ;
+	position: absolute;
+	background-image: url(gitar4.png);
+	background-size: 170px;
+	background-position: 0px -17px;
+	background-repeat: no-repeat;
+	transform: rotate(25deg);
+	background-color: ;
+	top: -12px;
+	left: 20px;
+}
+
+.bungkus-navnya {
+	margin: 0 auto;
+	width: 70%;
+	height: 100%;
+	background-color: #0C2D48;
+	display: flex;
+	position: relative;
+}
+
+.ulku 	{
+	margin: 0px 0px;
+	width: 100%;
+	padding: 0px 0px;
+}
+
+.navku	{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	line-height: 85px;
+	color: #FAE8E0;
+	font-size: 25px;
+	transition: 0.3s;
+}
+.dalamnya	{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: none;
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.navku-tengah	{
+	border-left: 2px dashed #EED6D3;
+	border-right: 2px dashed #EED6D3;
+}
+
+.navku-kiri	{
+	border-left: 2px dotted #EED6D3;
+}
+
+.navku-kanan	{
+	border-right: 2px dotted #EED6D3;
+}
+
+.search	{
+	width: 15%;
+	height: 85px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	line-height: 0px;
+}
+
+input[type=search] 	{
+	width: 80%;
+	border-bottom: 2.5px solid #A49393;
+	border-right: 0px;
+	border-left: 0px;
+	border-top: 0px solid black;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-left: 25px;
+	padding: 4px 0px 4px 30px;
+	background-image: url(search.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	outline: none;
+	transition: 0.3s;
+}
+
+input[type=search]:focus 	{
+	box-shadow: 0px 0px 0px 5px blueviolet;
+
+}
+
+.search p 	{
+	font-size: 20px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-left: 25px;
+	color: floralwhite;
+}
+
+.navku a:hover 	{
+	font-size: 30px;
+}
