@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #F8F0DF;
+}
+
+.bungkus	{
+	width: 55%;
+	height: 753px;
+	margin: 0px auto;
+	background-color: #9D9D9D;
+	border-left: 10px solid #C1CFC0;
+	border-right: 10px solid #C1CFC0;
+}
+
+.mantap	{
+	font-size: 55px;
+	font-weight: bold;
+	color: #D5EEBB;
+	text-align: center;
+	padding-top: 30px;
+	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.inputnomor	{
+	width: 40%;
+	height: 40px;
+	margin: 0px 50px;
+	font-size: 20px;
+	border-radius: 15px;
+	outline: none;
+	border: 3.5px solid #6B7AA1;
+}
+
+.tombol	{
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #FFEFBC;
+}
+
+.bungkuskalkulator	{
+	width: 100%;
+	background-color: transparent;
+	position: relative;
+}
+.bungkustombol	{
+	margin: 0px auto;
+	text-align: center;
+}
+
+#operatorku	{
+	position: absolute;
+	top: 10px;
+	left: 412px;
+	font-size: 25px;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+.tombol:hover	{
+	cursor: pointer;
+}
+
+#hasil	{
+	width: 40%;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 15px;
+	outline: none;
+	border: 3.5px solid #6B7AA1;
+	display: inline-block;
+	margin: 0px auto;
+}
+
+.tombolhasil	{
+	width: 100px;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+.bungkusinputku	{
+	display: inline-flex;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.bungkusbawah	{
+	text-align: center;
+}
+
+.bungkusnya	{
+	background-color: rgba(0, 0, 0, 0.8);
+	background-image: url("polaku.jpg");
+	margin-top: 50px;
+	padding: 50px 0px;
+	border-radius: 20px;
+}
